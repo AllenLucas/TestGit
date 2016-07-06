@@ -20,7 +20,7 @@ public class PullToRelashListView extends ListView implements AbsListView.OnScro
     private ImageView headiv,foortiv;
     private int measureheight;
     private TextView tv;
-    private OnRelashListener listener;
+    
 
     public PullToRelashListView(Context context) {
         this(context,null);
